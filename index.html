@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My website</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <!-- experince-section -->
+      <section class="experince-section">
+        <img src="./img/my-photo.jpg" alt="photo" class="my-photo" />
+        <div>
+          <a href="">
+            <img
+              src="./img/icons/linkedin-icon.svg"
+              alt="linkedin link"
+              class="icon likedin-icon"
+            />
+          </a>
+          <a href="https://www.facebook.com/inna.rozlomii">
+            <img
+              src="./img/icons/fb-icon.svg"
+              alt="facebook link"
+              class="icon"
+            />
+          </a>
+        </div>
+        <div class="experience-description">
+          <p
+            class="
+              experience-description-text experience-description-text-first
+            "
+          >
+            32 готовых проекта
+          </p>
+          <p class="experience-description-text">2 года опыта</p>
+        </div>
+        <div class="technologies">
+          <img
+            src="./img/icons/js-icon.svg"
+            alt="java script"
+            class="js-icon"
+          />
+          <img
+            src="./img/icons/react-icon.svg"
+            alt="react"
+            class="react-icon"
+          />
+          <img src="./img/icons/nodejs-icon.svg" alt="node js" />
+        </div>
+        <a
+          class="my-projects-link"
+          href="https://github.com/innaroz/goit-markup-hw-08"
+          >Мои работы
+        </a>
+      </section>
+      <!-- my-info-section -->
+      <section class="my-info-section">
+        <p class="my-name">Привет! Я - Алекс Тур</p>
+        <p class="my-profession">Я делаю сайты</p>
+        <p class="my-location">Живу в Перу</p>
+        <p class="my-workstyle">Работаю удаленно</p>
+        <p class="my-description">
+          Я - человек-оркестр. В одиночку заменяю целую веб-студию.
+        </p>
+        <p class="my-skills-title">Умею:</p>
+        <p></p>
+        <ul class="my-skills-list">
+          <li class="my-skills-item">
+            <p class="my-skills-text">Управлять IT-проектами и командами;</p>
+          </li>
+          <li class="my-skills-item">
+            <p class="my-skills-text">Senior Front End разработчик;</p>
+          </li>
+          <li class="my-skills-item">
+            <p class="my-skills-text">Middle Back End разработчик;</p>
+          </li>
+          <li class="my-skills-item">
+            <p class="my-skills-text">
+              Могу проконтролировать качество своего или вашего проекта, как QA
+              - специалист.
+            </p>
+          </li>
+        </ul>
+      </section>
+      <!-- project-price -->
+      <section class="project-price">
+        <form class="project-price-form" action="#">
+          <h4 class="project-price-title">Рассчитай стоимость проекта</h4>
+          <div class="project-type-container">
+            <label class="form-field-title" for="project-type">Тип сайта</label>
+            <select
+              name="project-type"
+              id="project-type"
+              class="project-price-select"
+            >
+              <option selected value="Landing-page">Landing page</option>
+              <option value="cms">CMS</option>
+              <option value="wordpress">Wordpress</option>
+              <option value="e-shop">E shop</option>
+            </select>
+          </div>
+          <div class="activity-type-container">
+            <p class="project-price form-field-title">Тип работ</p>
+            <div class="activity-type-item">
+              <input
+                type="checkbox"
+                name="project-management"
+                id="project-management"
+                class="activity-type-checkbox"
+              />
+              <label for="project-management" class="activity-type-title"
+                >Project management</label
+              >
+            </div>
+            <div class="activity-type-item">
+              <input
+                checked
+                type="checkbox"
+                name="design"
+                id="design"
+                class="activity-type-checkbox"
+              />
+              <label for="design" class="activity-type-title">Design</label>
+            </div>
+            <div class="activity-type-item">
+              <input
+                checked
+                type="checkbox"
+                name="development"
+                id="development"
+                class="activity-type-checkbox"
+              />
+              <label for="development" class="activity-type-title"
+                >Development</label
+              >
+            </div>
+            <div class="activity-type-item">
+              <input
+                type="checkbox"
+                name="qa"
+                id="qa"
+                class="activity-type-checkbox"
+              />
+              <label for="qa" class="activity-type-title">QA</label>
+            </div>
+          </div>
+          <div class="project-price-container">
+            <p class="project-price form-field-title">Стоимость</p>
+            <p class="project-price-sum">
+              <span class="project-price-sum-currency">$ </span>2000
+            </p>
+          </div>
+          <div class="project-price-calculate-button-container">
+            <button class="project-price-calculate-button">
+              Оставить запрос
+            </button>
+          </div>
+        </form>
+      </section>
+    </div>
+  </body>
+</html>
